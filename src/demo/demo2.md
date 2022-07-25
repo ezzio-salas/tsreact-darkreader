@@ -7,7 +7,7 @@ You can set the defaultDarken properties to control status at first time.
  * defaultShowCode: true
  */
 import React, { useState } from 'react';
-import Darkreader from 'react-darkreader';
+import Darkreader from 'tsreact-darkreader';
 
 export default () => {
   const [message, setMessage] = useState('Current theme mode is what');

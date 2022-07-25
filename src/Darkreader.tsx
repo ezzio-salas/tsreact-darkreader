@@ -1,7 +1,7 @@
 import React from 'react';
 import { Theme, DynamicThemeFix } from 'darkreader';
 import useDarkreader from './useDarkreader';
-import Switch from './Switch';
+import Toogle from './Toogle';
 
 export interface DarkreaderProps {
   defaultDarken?: boolean;
@@ -19,7 +19,7 @@ export default function Darkreader({
   const [isDark, { toggle }] = useDarkreader(defaultDarken, theme, fixes);
 
   return (
-    <Switch
+    <Toogle
       checked={isDark}
       onChange={checked => {
         toggle();

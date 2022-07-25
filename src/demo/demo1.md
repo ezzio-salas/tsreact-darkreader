@@ -7,7 +7,7 @@ You can import to your app with default export.
  * defaultShowCode: true
  */
 import React from 'react';
-import Darkreader from 'react-darkreader';
+import Darkreader from 'tsreact-darkreader';
 
 export default () => {
   return <Darkreader />;

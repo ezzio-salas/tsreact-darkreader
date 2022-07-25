@@ -1,25 +1,27 @@
 {
-  "name": "react-darkreader",
-  "version": "1.5.6",
-  "description": "A React Hook for adding a dark / night mode to your site inspired by darkreader",
+  "name": "tsreact-darkreader",
+  "version": "2.0.0",
+  "description": "A Custom React Hook for adding a dark / night mode to your site inspired by darkreader",
   "keywords": [
     "react",
     "react-component",
     "react-darkreader",
+    "typescript",
+    "ts",
     "darkreader",
     "darkmode"
   ],
   "authors": {
-    "name": "Turkyden",
-    "email": "wj871287@gmail.com"
+    "name": "Turkyden-Custom V. By Ezzio Salas",
+    "email": "ezzio.salas@gmail.com"
   },
-  "homepage": "http://github.com/Turkyden/react-darkreader",
+  "homepage": "http://github.com/ezzio-salas/tsreact-darkreader",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Turkyden/react-darkreader.git"
+    "url": "git@github.com:ezzio-salas/tsreact-darkreader.git"
   },
   "bugs": {
-    "url": "http://github.com/Turkyden/react-darkreader/issues"
+    "url": "http://github.com/ezzio-salas/tsreact-darkreader"
   },
   "license": "MIT",
   "scripts": {

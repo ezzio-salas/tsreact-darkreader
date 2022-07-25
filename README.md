@@ -12,8 +12,6 @@ English | [简体中文](./README_cn-zh.md)
   <a href="https://www.npmjs.com/package/react-darkreader" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/react-darkreader?color=orange" /></a> <img alt="npm" src="https://img.shields.io/npm/dt/react-darkreader" /> <a href="https://github.com/umijs/dumi" target="_blank"><img alt="dumi" src="https://img.shields.io/badge/docs%20by-dumi-blue" /></a> <img alt="license" src="https://img.shields.io/github/license/Turkyden/react-darkreader" /> <a href="https://www.jsdelivr.com/package/npm/react-darkreader" target="_blank"><img alt="jsdelivr" src="https://data.jsdelivr.com/v1/package/npm/react-darkreader/badge" /></a>
 </p>
 
-<p align="center">Live Demo ✨ <a href="https://react-darkreader.vercel.app" target="_blank">https://react-darkreader.vercel.app</a></p>
-
 ## Getting Started
 
 Install with yarn
@@ -49,12 +47,12 @@ You can also create darkmode by the react hook `useDarkreader`
 
 ```tsx | pure
 import React from 'react';
-import { Switch, useDarkreader } from 'react-darkreader';
+import { Toogle, useDarkreader } from 'react-darkreader';
 
 export default () => {
   const [isDark, { toggle }] = useDarkreader(false);
 
-  return <Switch checked={isDark} onChange={toggle} />;
+  return <Toogle checked={isDark} onChange={toggle} />;
 };
 ```
 
@@ -82,7 +80,7 @@ const [isDark, { toggle, collectCSS }] = useDarkreader(defaultDarken, theme?, fi
 with a toggle button as ui.
 
 ```tsx | pure
-<Switch checked={isDark} onChange={toggle} />
+<Toogle checked={isDark} onChange={toggle} />
 ```
 
 ### Result
@@ -103,7 +101,9 @@ with a toggle button as ui.
 
 ## 🔢 Coming Soon
 
-- [x] add the material design styling in switch
+- [x] add the material design styling in Toogle
+- [ ] add the custom icon props design styling in Toogle
+- [ ] add the custom style props design styling in Toogle
 - [ ] followSystemColorScheme
 - [ ] localstorge
 - [ ] playground for editing the config online

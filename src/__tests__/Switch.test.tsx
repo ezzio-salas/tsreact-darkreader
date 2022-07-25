@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '@testing-library/jest-dom';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { renderHook } from '@testing-library/react-hooks/dom/pure';
-import Switch from '../Switch';
+import Toogle from '../Toogle';
 
 test('shows status when the switch is checked', () => {
   const { result } = renderHook(() => useState(false));
@@ -11,7 +11,7 @@ test('shows status when the switch is checked', () => {
 
   const toggle = () => setIsDark(preState => !preState);
 
-  render(<Switch checked={isDark} onChange={toggle} />);
+  render(<Toogle checked={isDark} onChange={toggle} />);
 
   expect(result.current[0]).toBe(false);
 

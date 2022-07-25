@@ -7,7 +7,7 @@ And you can export the CSS of darkmode with `collectCSS` action.
  * defaultShowCode: true
  */
 import React, { useState } from 'react';
-import { Switch, useDarkreader } from 'react-darkreader';
+import { Toggle, useDarkreader } from 'tsreact-darkreader';
 
 export default () => {
   const [isDark, { toggle, collectCSS }] = useDarkreader(false);
@@ -23,7 +23,7 @@ export default () => {
 
   return (
     <>
-      <Switch checked={isDark} onChange={toggle} />
+      <Toggle checked={isDark} onChange={toggle} />
       <br />
       <br />
       <button type="button" onClick={logCSS}>

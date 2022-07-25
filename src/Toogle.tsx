@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactSwitch, { ReactSwitchProps } from 'react-switch';
-import './Switch.css';
+import './Toogle.css';
 export interface SwitchProps extends ReactSwitchProps {
   styling?: 'docusaurus' | 'material' | 'github' | 'fluent';
 }
 
-export default function Switch(SwitchProps: SwitchProps) {
+export default function Toogle(SwitchProps: SwitchProps) {
   if (SwitchProps.styling === 'docusaurus') {
     return <DocusaurusSwitch {...SwitchProps} />;
   } else if (SwitchProps.styling === 'material') {
