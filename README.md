@@ -17,13 +17,13 @@ English | [简体中文](./README_cn-zh.md)
 Install with yarn
 
 ```bash
-yarn add react-darkreader
+yarn add tsreact-darkreader
 ```
 
 Or you can
 
 ```bash
-npm install react-darkreader
+npm install tsreact-darkreader
 ```
 
 Or inject the script at your page by [jsdelivr CDN](https://www.jsdelivr.com/)
